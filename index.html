@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <div class="main_container">
+        <h1 class="small_text"><svg class="header_svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+            <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1"/>
+        </svg> Checkout</h1>
+        <h1>New card</h1>
+        <div class="card_image">
+            <h2 class="card_bank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+                <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z"/>
+              </svg> Bank</h2>
+            <h2 class="card_number">0000 0000 0000 0000</hz>
+                <h2 class="card_name">Credit card</h2>
+        </div>
+        <div class="payment_options">
+            <h3 class="payment_text">Payment options</h3>
+            <div class="container">
+                <div> <img src="./American express.jpg" alt="American express card"/> </div>
+                <div> <img src="./Mastercard.png" alt="Mastercard"/> </div>
+                <div> <img src="./Visa.png" alt="Visa card"/> </div>
+            </div>
+        </div>
+        <div >   
+            <div>
+                <div><h3>Card number</h3></div>
+                <div class="box"></div>
+            </div>
+            <div>
+                <h3>Cardholder name</h3>
+                <div class="box"></div>
+            </div>
+            <div class="container">
+                <div><h3>Expiry date</h3></div>
+                <div><h3>CVV</h3></div>
+            </div>
+            <div class="container">
+                <div class="box small_box"><p>MM/YYYY</p></div>
+                <div class="box small_box"><p>XXX</p></div>
+            </div>
+        </div>
+        <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+            </svg> Set as default card
+        </h3>
+        <div class="box last_box">
+            <h3 class="last_text"> <a id="pay_now" href="./pay_now.html">Pay Now</a></h3>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
